@@ -5,6 +5,8 @@
     margin-top: 50px; 
     margin-bottom: 50px;
     color:rgb(38, 38, 136);
+    border: solid rgb(38, 38, 136);
+    
 }
 
 .titulo{
@@ -19,29 +21,40 @@
 }
 
 .foto{
-    border: solid 10px grey;  
+    border: solid 10px rgb(95, 95, 153);  
     width: 12%;
     text-align: center;
+    box-shadow: 6px 20px 10px darkblue;
 }
 
-.index{
-    background-color:rgb(217, 236, 243);
+.fondo-index , .fondo-info, .experiencia, .refp, .reff, .estudios{
+    background-image:url('https://i.pinimg.com/736x/fc/c9/f0/fcc9f07c2de3cdfa419635a6fd7ed05d.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fondo-info{
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM0G5rsCsjpGoBKPNZV0-TYid88K5tFPwsqA&usqp=CAU');
 }
 
 .experiencia{
-    background-color:rgb(219, 238, 211);
+    background-image:url('data:image/jpeg;base64,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');
 }
-
 .estudios{
-    background-color:rgb(238, 211, 222);
+    
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGmiRVC3Xvr1EZs2wxir2fhpvty7mdakOZg&usqp=CAU');
 }
 
-.principal{
-    background-color:rgb(238, 211, 238);
+
+.refp{
+    background-image:url('https://img.freepik.com/foto-gratis/fondo-borde-floral-primavera-verde-ilustracion-acuarela-hoja_53876-126807.jpg');
 }
 
 .reff{
-    background-color:rgb(211, 238, 234);
+    
+    background-image:url('https://st2.depositphotos.com/1007388/6128/i/950/depositphotos_61284689-stock-photo-pink-watercolor-background.jpg');
+
 }
 .texto, .datos{
     font-size: larger; 
@@ -102,3 +115,54 @@ a{
     width: 1%;
     white-space: nowrap;
 }
+.info:link,.info:visited{
+    font-size:larger;
+    text-align: center;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.info:hover, .info:active{
+    background-color: aqua;
+    color: rgb(14, 68, 47);
+    border: solid rgb(3, 34, 8) 2px;
+    border-radius: 15px;
+    padding: 10px 25px ;
+
+}
+
+.info:active{
+    background-color: rgb(180, 162, 197);
+    color: rgb(127, 0, 139);
+}
+
+.descargar:link, .descargar:visited, .regresar:link,.regresar:visited{
+    font-size:larger;
+    background-color: rgb(241, 136, 215);
+    padding: 15px 5px;
+    text-align: center;
+    border: solid rgb(192, 16, 148) 2px;
+    border-radius: 15px;
+    color: rgb(122, 21, 80);
+    text-decoration: none;
+}
+
+.regresar:link,.regresar:visited{
+    padding: 35px 5px 1px;
+    
+}
+
+.descargar:hover, .descargar:active,.regresar:hover, .regresar:active{
+    color: rgb(7, 77, 11);
+    background-color: rgb(77, 217, 241);
+    border: solid rgb(14, 145, 20) 2px;
+    border-radius: 15px;
+    width: fit-content;
+
+}    
+
+.descargar:active, .regresar:active{
+    color: rgb(15, 50, 95);
+    background-color: rgb(50, 180, 72);
+}
+
