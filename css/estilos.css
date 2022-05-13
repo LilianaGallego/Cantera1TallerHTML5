@@ -27,3 +27,78 @@
 .index{
     background-color:rgb(217, 236, 243);
 }
+
+.experiencia{
+    background-color:rgb(219, 238, 211);
+}
+
+.estudios{
+    background-color:rgb(238, 211, 222);
+}
+
+.principal{
+    background-color:rgb(238, 211, 238);
+}
+
+.reff{
+    background-color:rgb(211, 238, 234);
+}
+.texto, .datos{
+    font-size: larger; 
+}
+
+.texto{
+    text-align: justify; 
+}
+
+.celda1{
+    width: 2px;
+}
+
+.celda2{
+    width: 20%;
+}
+
+img{
+    width: 60%;
+}
+
+.columna1{
+    
+    position: absolute;
+    margin-right: auto;
+}
+
+.columna2, #columna2{
+    position: relative;
+    margin-left: 550px;
+   
+}
+
+#columna2{
+    position: relative;
+    margin-left: 350px;
+   
+}
+
+.regresar,a{
+    font-size: larger;
+    color: blueviolet;
+}
+
+a{
+    color:blue
+}
+
+.img-regresar{
+    width: 5%;
+    margin-left: 15px;
+}
+.refp{
+    background-color:rgb(211, 238, 213); 
+}
+
+.periodo{
+    width: 1%;
+    white-space: nowrap;
+}
