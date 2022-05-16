@@ -10,13 +10,35 @@
 </head>
 
 <body class="estudios">
+    <header>
+        <div class="menu" onclick="cambiarMenu()">
+            <div class="btn-color" >
+                <img class="icono" src="https://cdn-icons-png.flaticon.com/512/979/979800.png" alt="">
+            </div>
+        </div>
+        <br/><br/><br/>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li id="color1" class="color1">
+                    <input type="radio"  name="color" value="lightpink" id="btnlightpink" onclick="cambiarColorBtn1()">lightpink
+                </li>
+                <li id="color2" class="color2">
+                    <input type="radio" name="color" value="aquamarine" id="btnaquamarine" onclick="cambiarColorBtn2()">aquamarine
+                </li>
+                <li id="color3" class="color3">
+                    <input type="radio" name="color" value="lightgreen" id="btnlightgreen" onclick="cambiarColorBtn3()">lightgreen
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
     <div class="bloque">
-        <h1 class="titulo">
+        <h1 class="btn-titulo">
             <b>
                 ESTUDIOS REALIZADOS
             </b>
         </h1>
-        <br/><br/>
+        
         <div class="texto">
             <ul>
                 <li>
@@ -108,6 +130,7 @@
         <br/><br/>
 
     </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

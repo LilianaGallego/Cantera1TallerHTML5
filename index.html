@@ -7,9 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HV Martha Liliana Gallego Murillo</title>
     <link rel="stylesheet" href="./css/estilos.css">
+
 </head>
 
 <body class="fondo-index">
+    
+    <header>
+        <div class="menu" onclick="cambiarMenu()">
+            <div class="btn-color" >
+                <img class="icono" src="https://cdn-icons-png.flaticon.com/512/979/979800.png" alt="">
+            </div>
+        </div>
+        <br/><br/><br/>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li id="color1" class="color1">
+                    <input type="radio"  name="color" value="lightpink" id="btnlightpink" onclick="cambiarColorBtn1()">lightpink
+                </li>
+                <li id="color2" class="color2">
+                    <input type="radio" name="color" value="aquamarine" id="btnaquamarine" onclick="cambiarColorBtn2()">aquamarine
+                </li>
+                <li id="color3" class="color3">
+                    <input type="radio" name="color" value="lightgreen" id="btnlightgreen" onclick="cambiarColorBtn3()">lightgreen
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
 
     <div class="bloque">
         <div class="encabezado">
@@ -32,7 +56,7 @@
                 <i>INGENIERA DE ALIMENTOS</i>
             </h3>
         </div>
-        <br/>
+        <br />
         <div>
             <h1>
                 <b>PERFIL</b>
@@ -48,7 +72,7 @@
             <ul>
                 <li>
                     <b>
-                        <a class="info" href="Información Principal.html" style="font-size:larger;">Información
+                        <a class="info" href="Información Principal.html" onclick=" cambiarColorInfo()"  style="font-size:larger;">Información
                             Principal</a>
                     </b>
                 </li>
@@ -86,17 +110,17 @@
                 </li>
             </ul>
         </nav>
-        <br/><br/>
+        <br /><br />
         <div>
             <b>
                 <a class="descargar" href="./pdf/HOJA_DE_VIDA_MARTHA_LILIANA_GALLEGO_M.pdf"
                     download="HV_MARTHA_LILIANA_GALLEGO_M.pdf">Descargar hoja de vida en PDF</a>
             </b>
         </div>
-        <br/><br/>
+        <br /><br />
     </div>
 
-
+    <script src="js/index.js"></script>
 </body>
 
 </html>
